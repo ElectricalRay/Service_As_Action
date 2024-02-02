@@ -2,6 +2,8 @@
     background-color: #6497B1;
     text-align: center;
     padding: 20px;
+    height: 115px;
+    width: auto;
 }
 
 .navigation ul {
@@ -13,5 +15,35 @@
     font-weight: 100;
     letter-spacing: 2px;
     padding: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
     list-style-type: none;
+}
+
+li:hover {
+    color: darkgray;
+}
+
+.header{
+    font-weight: extrabold;
+    letter-spacing: 2px;
+    padding: 20px;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin: 10px;
+    border: 3px black solid;
+    height: auto 0;
+    width: auto 0;
+}
+
+h3{
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
 }
