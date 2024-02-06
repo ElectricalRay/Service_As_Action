@@ -2,7 +2,7 @@
     background-color: #6497B1;
     text-align: center;
     padding: 20px;
-    height: 115px;
+    height: auto 0;
     width: auto;
 }
 
@@ -31,7 +31,6 @@ li:hover {
     font-size: 40px;
     font-family: sans-serif;
     margin: 10px;
-    border: 3px black solid;
     height: auto 0;
     width: auto 0;
 }
@@ -40,10 +39,30 @@ h3{
     font-weight: bold;
     text-align: left;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 30px;
     font-family: sans-serif;
-    padding: 0;
+    padding: 20px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 100px;
+}
+
+.Paragraph {
+    text-align: left;
+    font: sans-serif;
+    font-size: 20px;
+    height: auto 0;
+    width: 500px;
+    padding: 20px;
+    margin: 10px 10px;
+    letter-spacing: 2px;
+}
+
+.Teacher {
+    font: sans-serif;
+    font-size: 20px;
+    height: auto 0;
+    padding: 20px;
+    margin: 10px 10px;
+    letter-spacing: 2px;;
 }
