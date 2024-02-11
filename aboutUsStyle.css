@@ -1,9 +1,13 @@
-.navigation{
+/*.navigation{
     background-color: #6497B1;
     text-align: center;
     padding: 20px;
-    height: auto 0;
-    width: auto;
+    /*height: auto 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+
 }
 
 .navigation ul {
@@ -37,25 +41,26 @@ li:hover {
 
 h3{
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     letter-spacing: 2px;
     font-size: 30px;
     font-family: sans-serif;
     padding: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.Paragraph {
-    text-align: left;
+.Paragraph{
     font: sans-serif;
+    text-align: center;
     font-size: 20px;
     height: auto 0;
-    width: 500px;
+    margin: 0;
     padding: 20px;
-    margin: 10px 10px;
     letter-spacing: 2px;
+    bottom: 200px;
 }
 
 .Teacher {
@@ -66,3 +71,16 @@ h3{
     margin: 10px 10px;
     letter-spacing: 2px;;
 }
+
+.info{
+    position: relative;
+    top:200px;
+    bottom: 200px;
+}
+
+footer {
+    text-align: center;
+    height: 100px;
+    bottom: 100px;
+}
+*/
