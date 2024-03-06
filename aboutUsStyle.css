@@ -1,10 +1,15 @@
+
+
 .navigation ul {
     margin: 0;
     padding: 0;
     text-align: center;
     background-color: #6497B1;
-    /*position: fixed;
-    left: 670px;*/
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
   }
   
   .navigation li {
@@ -15,9 +20,11 @@
     list-style-type: none;
     font-family: sans-serif;
     color: #005B96;
+    border: 1px solid black;
+
   }
 
-  li:hover{
+  .navigation li:hover{
 
     color: #98E4D9;
 
@@ -31,13 +38,11 @@
     margin: 0px;
     padding: 0px;
     position: relative;
-    top: 100px;
+    top: 200px;
     width: 800px;
     left: 350px;
+    bottom: 500px;
     letter-spacing: 2px;
-    font-size: 25px;
-    
-
   }
 
   body{
@@ -45,7 +50,25 @@
     height: 100%;
   }
 
+  .emails{
+    list-style-type: none;
+    font-family: sans-serif;
+  }
 
+  .Paragraph{
+    font-family: sans-serif;
+    font-size: 25px;
+  }
+  .footing{
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    font-family: sans-serif;
+  }
+
+  .heading{
+    font-size: 40px;
+  }
 /*.navigation{
 
     position: fixed;
